@@ -17,7 +17,7 @@ This includes the DVFS signatures of 10 benign benchmarks selected from MiBench 
 
 This includes the DVFS signatures of 21 malware applications, each selected from different malware family, 100 traces per application and each trace has 40000 time-samples. The size of dataset is (21,100,40000). 
 
-/malware_dataset/malwares_unknown.tar.gz
+/malware_dataset/malwares_variants.tar.gz
 
 This includes 146 malware applications which variants of malware family in malware.tar.gz dataset. There is only 1 trace per application, 40000 time-samples per trace. The size of dataset is (146,40000). This dataset is used to test the trained model on out-of-distribution test examples, which corrsponds to unknown malware applications, unseen by trained ML model. 
 
